@@ -32,11 +32,11 @@ No real person is named or targeted. It's satire, not a hit list.
 │   ├── audio.js          # WebAudio sound effects (shot, pop) + mute state
 │   ├── game.js           # canvas engine: balloons, gun, scope, particles, game loop
 │   └── ui.js             # menu wiring, HUD, announcements, game-over screen
-└── assets/
-    └── fonts/
-        ├── press-start-2p.woff2   # display font (OFL)
-        └── vt323.woff2            # terminal font (OFL)
 ```
+
+Fonts (Press Start 2P + VT323, OFL licensed) are inlined as data-URIs inside
+`css/style.css` — the game makes **zero external requests**, so it works the
+moment it deploys, even offline.
 
 ## Deploy to Vercel (free)
 
