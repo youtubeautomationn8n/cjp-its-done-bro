@@ -1,7 +1,7 @@
 /* ================= DATA ================= */
 const MODES = {
   cjp: {
-    name: "CJP — TROLL MODE 📢", accent: "#14b8a6",
+    name: "CJP", accent: "#14b8a6",
     tag: "Pop the protest excuses!",
     lines: [
       "Protest is my full-time job 📢",
@@ -31,7 +31,7 @@ const MODES = {
     ranks: [[2600,"🏆 CERTIFIED ANDOLANJEEVI"],[1600,"🥈 TOOLKIT GANG MEMBER"],[800,"🥉 DHARNA PROFESSIONAL"],[0,"🎈 CANDLE MARCH INTERN"]]
   },
   cong: {
-    name: "CONGRESS — TROLL MODE 🗳️", accent: "#e8e8e8",
+    name: "CONGRESS", accent: "#e8e8e8",
     tag: "Pop the excuses!",
     lines: [
       "I never see BJP as development 🙈",
@@ -59,7 +59,7 @@ const MODES = {
     ranks: [[2600,"🏆 CERTIFIED ANDHNAMAZI"],[1600,"🥈 CHAMCHA SUPREMO"],[800,"🥉 EVM RONA CHAMPION"],[0,"🎈 TUKDE-TUKDE TRAINEE"]]
   },
   bjp: {
-    name: "BJP — DEFEND MODE 🛡️", accent: "#ff9933",
+    name: "BJP", accent: "#ff9933",
     tag: "Shoot down the fake narratives!",
     taunts: [
       ["Jumla! 🗣️", "Vande Bharat trains now run across the country"],

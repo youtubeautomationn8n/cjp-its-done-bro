@@ -40,3 +40,12 @@ document.getElementById("changeBtn").addEventListener("click", ()=>{
   if(document.fonts && document.fonts.load){ document.fonts.load('20px "Press Start 2P"'); document.fonts.load("19px 'VT323'"); }
 })();
 drawBG(); // menu backdrop
+document.getElementById("backBtn").addEventListener("click", ()=>{
+  state="menu";
+  document.getElementById("hud").style.display="none";
+  document.getElementById("muteBtn").style.display="none";
+  document.getElementById("fact").classList.remove("show");
+  document.getElementById("announce").style.display="none";
+  document.getElementById("menu").style.display="flex";
+  drawBG();
+});
